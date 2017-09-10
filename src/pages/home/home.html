@@ -1,4 +1,15 @@
 <ion-header>
+  <expandable-header [scrollArea]="myContent">
+    <ion-item>
+      <ion-label ><ion-icon name="search"></ion-icon></ion-label>
+      <ion-input type="text" ></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label ><ion-icon name="funnel-outline"></ion-icon></ion-label>
+      <ion-input type="text" ></ion-input>
+    </ion-item>
+  </expandable-header>
   <ion-navbar>
     <ion-title>
       Ionic Blank
@@ -6,9 +17,8 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding fullscreen #myContent>
+    <h2>Hello</h2><h2>Hello</h2><h2>Hello</h2><h2>Hello</h2><h2>Hello</h2><h2>Hello</h2>
+    <h2>Hello</h2><h2>Hello</h2><h2>Hello</h2><h2>Hello</h2><h2>Hello</h2><h2>Hello</h2><h2>Hello</h2>
+    <h2>Hello</h2><h2>Hello</h2><h2>Hello</h2><h2>Hello</h2><h2>Hello</h2>
 </ion-content>
